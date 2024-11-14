@@ -201,11 +201,13 @@ const OrderPage = () => {
               </Table>
             </TableContainer>
           </Container>
-          {orders && orders.length >= page + 20 && (
-            <Button variant="contained" color="primary" onClick={nextEvidences} style={{ marginTop: 5 }}>
-              Ďalšie
-            </Button>
-          )}
+          <Box sx={{ display: 'flex', justifyContent: 'center' }}>
+            {orders && orders.length >= page + 20 && (
+              <Button variant="contained" color="primary" onClick={nextEvidences} style={{ marginTop: 5 }}>
+                Ďalšie
+              </Button>
+            )}
+          </Box>
         </Box>
       )}
     </>
