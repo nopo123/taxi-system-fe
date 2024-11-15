@@ -1,0 +1,1 @@
+var l=Object.defineProperty;var r=(t,s,e)=>s in t?l(t,s,{enumerable:!0,configurable:!0,writable:!0,value:e}):t[s]=e;var a=(t,s,e)=>(r(t,typeof s!="symbol"?s+"":s,e),e);import{o}from"./index-Bn22ju4j.js";class c{}a(c,"getAll",async()=>o.get("/order-user")),a(c,"delete",async s=>o.delete(`/order-user/${s}`));export{c as O};
