@@ -19,7 +19,7 @@ This repository contains the frontend code of a taxi management system. It is a 
 - Node.js
 - npm
 
-## Installation
+## Installation (if not using Docker)
 
 ```bash
 $ npm install
@@ -34,6 +34,15 @@ Then, you can run the app using the following command:
 ```bash
 $ npm start
 ```
+
+## Running the app using Docker
+
+Create a `.env` file as described above and then run the following command:
+
+```bash
+$ docker-compose up
+```
+
 ## Usage
 
 Visit the `/login` route to access the application using the super admin account. The default credentials are:
